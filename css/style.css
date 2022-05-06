@@ -1,0 +1,32 @@
+*{
+    background-color: rgb(226, 241, 90);
+}
+
+.flex-container {
+  display: flex;
+  background-color: rgb(181, 193, 73);
+  justify-content: center
+}
+.flex-item {
+    flex-wrap: nowrap;
+    width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 10px;
+  font-size: 50px;
+}
+.img {
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+.text{
+    text-align: center;
+    color: rgb(255, 133, 237);
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+.logo{
+    float: left;
+    height: 100px;
+}
